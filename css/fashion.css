@@ -1,0 +1,87 @@
+#fashion {
+}
+#fashion .wrap {
+  
+}
+#fashion .wrap .flex{  
+  align-items: center;
+  position: relative;
+}
+#fashion .wrap h2 {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#fashion .wrap .more{
+  text-transform: uppercase;
+  color: #999;
+  text-align: end;
+  font-weight: bold;
+  font-size: 11px;
+  position: absolute;
+  right: 0;
+}
+#fashion .wrap .more::after{
+  content: "";
+  background-image: url(../img/more.svg);
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: -5px;
+  background-size: contain;
+}
+#fashion .grid24{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  grid-auto-rows: auto auto;
+  column-gap: 30px;
+}
+#fashion .grid24 article{
+  
+}
+#fashion .grid24 article:nth-child(5){  
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+#fashion .grid24 article a{
+  
+}
+#fashion .grid24 article a img{
+  width: 450px;
+}
+#fashion .grid24 article:nth-child(5) a img{
+ width: 638px;
+ height: 957px;
+}
+#fashion .grid24 article a div{
+  transform: translate(50px,-200px);
+  color: white;
+}
+#fashion .grid24 article a h4 {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 4;
+}
+#fashion .grid24 article a h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+}
+#fashion .grid24 article a h3:hover{
+  text-decoration: underline;
+}
+#fashion .grid24 article:nth-child(5) a h3{
+  font-size: 26px;
+}
+#fashion .grid24 article a p {
+  color: #999;
+  font-size: 12px;
+  line-height: 5;
+}
+#fashion .grid24 article:nth-child(5) a p {
+  color: #999;
+  font-size: 12px;
+  line-height: 5;
+}
+

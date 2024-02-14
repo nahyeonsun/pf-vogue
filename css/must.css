@@ -1,0 +1,45 @@
+section#must {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+section#must .wrap {
+
+}
+section#must .wrap h2 {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+section#must .flex{
+  justify-content: center;
+  gap: 30px;
+}
+section#must .flex article{
+  
+}
+section#must .flex article a{
+  
+}
+section#must .flex article a img{  
+  width: 377px;
+}
+section#must .flex article a h4{
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 4;
+}
+section#must .flex article a h3{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+}
+section#must .flex article a h3:hover{
+  text-decoration: underline;
+}
+section#must .flex article a p{
+  color: #999;
+  font-size: 12px;
+  line-height: 5;
+}
