@@ -24,6 +24,17 @@
     <link rel="stylesheet" href="css/fashion.css">
     <link rel="stylesheet" href="css/life.css">
     <link rel="stylesheet" href="css/footer.css">
+    <!-- 자바스크립트 -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $().ready(function(){
+         $(window).scroll(function(){
+            if($(window).scrollTop()>$("footer").offset().top-$(window).height()){
+               $("footer .btop").removeClass("topFix").css("opacity","1");
+            }
+         });
+      });
+    </script>
 </head>
 <body>
     <!-- 상단영역 -->
