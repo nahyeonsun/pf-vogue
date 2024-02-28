@@ -1,0 +1,251 @@
+@media screen and (max-width:768px){
+  .wrap{
+    padding: 0 24px !important;
+    width: 100% !important;
+    flex-direction: column;
+  }
+  h2{
+    font-size: calc(45px * 0.6) !important;
+  }
+  h3{
+    font-size: calc(20px * 0.8) !important;
+    margin: 10px 0 !important;
+  }
+  h4{
+    font-size: calc(15px * 0.8) !important;
+  }
+  header{
+    width: 100vw;
+    padding: 0;
+    height: 120px;
+  }
+  header div.wrap{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+  }
+  header div.wrap h1{
+    grid-column: 1;
+  }
+  header div.wrap h1 a{ 
+    width: 127px;
+    height: 33px;
+    margin: 0;
+  }
+  header div.wrap ul.gnb{
+    grid-column: 1 / span 2;
+    margin: 0;
+  }
+  header div.wrap ul.gnb li a{
+    padding: 0 12px 0 0;
+    text-align: initial;
+  }
+  header div.wrap .right{
+    grid-column: 2;
+    transform: translate(0);
+  }
+  header div.wrap .right ul li:nth-child(1){
+    display: none;
+  }
+  header div.wrap .right select{
+    margin-right: 5px;
+  }
+  /*  타이틀  */
+  #title{
+    width: 100vw;
+    height: 462px;
+    background-position-x: center;
+    box-sizing: border-box;
+  }
+  #title .wrap h3{
+    font-size: calc(44px * 0.65) !important;;
+  }
+  /*  today   */
+  section#today .wrap{   
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+  section#today .grid24{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  section#today .grid24 article:nth-child(1) a img{
+    width: calc(960px / 3);
+    height: calc(1440px / 3);
+  }
+  section#today .grid24 article a{
+    position: relative;
+  }
+  section#today .grid24 article:nth-child(1) a div{
+    
+  position: absolute;
+  left: 29px;
+  bottom: 50px;
+  }
+  section#today .grid24 article:nth-child(1) a h3{
+    font-size: calc(26px * 0.7) !important;
+  }
+  section#today .grid24 article:not(:nth-child(1)) a{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 16px;
+  }
+  section#today .grid24 article:not(:nth-child(1)) a h4{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: calc(15px * 0.8);
+  }
+  section#today .grid24 article:not(:nth-child(1)) a h3{
+    grid-column: 2;
+    grid-row: 2;
+    line-height: 1.2;
+    margin: 0;
+  }
+  section#today .grid24 article a img{
+    width: calc(450px * 0.4);
+    grid-row: 1 / span 3;
+    grid-column: 1;
+  }
+  /*  best   */
+  #best::before{
+    background-color: transparent;
+  }
+  #best .arrow{
+    display: none;
+  }
+  #best .flex article a img{
+    width: calc(377px * 0.4);
+  }
+  #best .flex article:nth-child(3){
+    display: none;
+  }
+  #best .flex article:nth-child(4){
+    display: none;
+  }
+  #best .flex article:nth-child(5){
+    display: none;
+  }
+  /*  must  */
+  section#must .flex{    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 15px;
+    align-items: ;
+  }
+  section#must .flex article a img{
+    width: calc(377px * 0.4);
+  }
+  /*  insta  */  
+  #insta{
+    background-color: #f5f5f5;
+  }
+  #insta::before{
+    background-color: transparent;
+  }
+
+  #insta .style{
+    flex-direction: column;
+    position: initial;
+  }
+  #insta .wrap .column{
+    position: initial;
+    margin: 0 auto;
+    height: fit-content;
+  }
+  #insta .wrap .column h2{
+    font-size: calc(30px * 0.6) !important;
+  }
+  #insta .wrap .column a p.fashion{ 
+    font-size: calc(45px * 0.7);
+    margin-bottom: 35px;
+  }
+  #insta .style article a img{
+    width: calc(377px * 0.4);
+    grid-row: 1 / span 3;
+  }
+  #insta .style article a{   
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 15px;
+  }
+  /* fashion */
+  section#fashion .wrap{   
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+  section#fashion .grid24{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  section#fashion .grid24 article:nth-child(5) a img{
+    width: calc(960px / 3);
+    height: calc(1440px / 3);
+  }
+  section#fashion .grid24 article a{
+    position: relative;
+  }
+  section#fashion .grid24 article:nth-child(5) a div{
+    position: absolute;
+    left: 29px;
+    bottom: 50px;
+  }
+  section#fashion .grid24 article:nth-child(5) a h3{
+    font-size: calc(26px * 0.7) !important;
+  }
+  section#fashion .grid24 article:not(:nth-child(5)) a{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 16px;
+  }
+  section#fashion .grid24 article:not(:nth-child(5)) a h4{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: calc(15px * 0.8);
+  }
+  section#fashion .grid24 article:not(:nth-child(5)) a h3{
+    grid-column: 2;
+    grid-row: 2;
+    line-height: 1.2;
+    margin: 0;
+  }
+  section#fashion .grid24 article a img{
+    width: calc(450px * 0.4);
+    grid-row: 1 / span 3;
+    grid-column: 1;
+  }
+  /*  life  */
+  section#life .wrap .img article a img{
+    width: calc(377px * 0.4);
+  }
+  section#life .wrap .img{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 15px;
+  }
+  /*  footer  */
+  footer{
+    height: 200px;
+  }
+  footer div.wrap h1{
+    width: calc(219px * 0.7);
+    height: calc(56px * 0.7);
+  }
+  footer div.wrap ul{
+    font-size: 11px;
+  }
+  footer div.wrap ul li:not(:last-child) a::after{
+    margin: 0 3px;
+  }
+  footer a.top{
+    display: none;
+  }
+}

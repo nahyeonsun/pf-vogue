@@ -24,6 +24,7 @@ section#today .grid24 article{
 section#today .grid24 article:nth-child(1){  
   grid-column: 1;
   grid-row: 1 / span 2;
+  position: relative;
 }
 section#today .grid24 article a{
   
@@ -36,18 +37,22 @@ section#today .grid24 article:nth-child(1) a img{
  height: 957px;
 }
 section#today .grid24 article a div{
-  transform: translate(50px,-200px);
   color: white;
+}
+section#today .grid24 article:nth-child(1) a div{
+  position: absolute;
+  bottom: 93px;
+  left: 67px;
 }
 section#today .grid24 article a h4 {
   font-size: 15px;
   font-weight: bold;
-  line-height: 4;
+  margin-top: 10px;
 }
 section#today .grid24 article a h3 {
   font-size: 20px;
   font-weight: bold;
-  line-height: 1;
+  margin: 10px 0;
 }
 section#today .grid24 article a h3:hover{
   
@@ -59,13 +64,14 @@ section#today .grid24 article:nth-child(1) a h3{
 section#today .grid24 article a p {
   color: #999;
   font-size: 12px;
-  line-height: 5;
+  line-height: 1.2;
 }
 section#today .grid24 article:nth-child(1) a p{
   color: white;
   font-weight: bold;
   font-size: 15px;
 }
+
 
 
 

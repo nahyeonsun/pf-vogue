@@ -1,65 +1,77 @@
 #insta {  
-  display: flex;
+  display: style;
   justify-content: center;
   position: relative;
+  height: 620px;
 }
 #insta::before{
- content: ""; 
- background-color: #f5f5f5;
- display: block;
- height: 345px;
- width: 100vw;
-position: absolute;
- top: 50px;
- z-index: -1;
+  content: ""; 
+  background-color: #f5f5f5;
+  display: block;
+  height: 345px;
+  width: 100vw;
+  position: absolute;
+  top: 50px;
+  z-index: -1;
 }
 #insta .wrap {
-
+  
 }
-#insta .wrap h2 {
+#insta .wrap .column{
+  position: absolute;
+  top: 19%;
+}
+#insta .wrap .column h2 {
   text-transform: uppercase;
   font-size: 30px;
   font-weight: bold;
   color: #888;
-  transform: translateY(110px);
 }
-#insta .wrap a{
+#insta .wrap .column a{
 
 }
-#insta .wrap a .fashion{
-  transform: translateY(140px);
+#insta .wrap .column a p.fashion{
   font-weight: bold;
-  text-decoration: underline;
+  /*! text-decoration: underline; */
   font-size: 45px;
+  margin-top: 20px;
 }
-#insta .flex{  
+#insta .wrap .column a p.fashion::after{
+  content: "";
+  border-bottom: 2px solid #000;
+  width: 100%;
+  display: block;
+  padding-top: 8px;
+}
+#insta .style{  
   gap: 30px;
-  transform: translateX(400px);
+  position: absolute;
+  left: 30%;
+  top: 115px;
 }
-#insta .flex article{
+#insta .style article{
   
 }
-#insta .flex article a{
+#insta .style article a{
 
 }
-#insta .flex article a img{
+#insta .style article a img{
   width: 377px;
 }
-#insta .flex article a h4{
+#insta .style article a h4{
   font-size: 15px;
   font-weight: bold;
-  line-height: 4;
+  margin-top: 10px;
 }
-#insta .flex article a h3{
+#insta .style article a h3{
   font-size: 20px;
   font-weight: bold;
-  line-height: 1;
+  margin: 15px 0;
 }
-#insta .flex article a h3:hover{
+#insta .style article a h3:hover{
   text-decoration: underline;
 }
-#insta .flex article a p {
+#insta .style article a p {
   color: #999;
   font-size: 12px;
-  line-height: 5;
 }

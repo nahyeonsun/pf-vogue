@@ -6,12 +6,12 @@
 #fashion .wrap .flex{  
   align-items: center;
   position: relative;
+  margin-bottom: 30px;
 }
 #fashion .wrap h2 {
   text-transform: uppercase;
   font-size: 45px;
   font-weight: bold;
-  margin-bottom: 30px;
 }
 #fashion .wrap .more{
   text-transform: uppercase;
@@ -40,9 +40,23 @@
 #fashion .grid24 article{
   
 }
+#fashion .grid24 article:nth-child(1){
+  order: 2;
+}
+#fashion .grid24 article:nth-child(2){
+  order: 3;
+}
+#fashion .grid24 article:nth-child(3){
+  order: 4;
+}
+#fashion .grid24 article:nth-child(4){
+  order: 5;
+}
 #fashion .grid24 article:nth-child(5){  
   grid-column: 3;
   grid-row: 1 / span 2;
+  position: relative;
+  order: 1;
 }
 #fashion .grid24 article a{
   
@@ -54,19 +68,24 @@
  width: 638px;
  height: 957px;
 }
-#fashion .grid24 article a div{
-  transform: translate(50px,-200px);
+#fashion .grid24 article:nth-child(5) a div{
   color: white;
+  position: absolute;
+  bottom: 93px;
+  left: 67px;
+}
+#fashion .grid24 article a div{
+  
 }
 #fashion .grid24 article a h4 {
   font-size: 15px;
   font-weight: bold;
-  line-height: 4;
+  margin-top: 10px;
 }
 #fashion .grid24 article a h3 {
   font-size: 20px;
   font-weight: bold;
-  line-height: 1;
+  margin: 15px 0;
 }
 #fashion .grid24 article a h3:hover{
   text-decoration: underline;
@@ -77,11 +96,5 @@
 #fashion .grid24 article a p {
   color: #999;
   font-size: 12px;
-  line-height: 5;
-}
-#fashion .grid24 article:nth-child(5) a p {
-  color: #999;
-  font-size: 12px;
-  line-height: 5;
 }
 

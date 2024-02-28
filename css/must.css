@@ -28,12 +28,13 @@ section#must .flex article a img{
 section#must .flex article a h4{
   font-size: 15px;
   font-weight: bold;
-  line-height: 4;
+  margin-top: 10px;
 }
 section#must .flex article a h3{
   font-size: 20px;
   font-weight: bold;
   line-height: 1;
+  margin: 15px 0;
 }
 section#must .flex article a h3:hover{
   text-decoration: underline;
@@ -41,5 +42,4 @@ section#must .flex article a h3:hover{
 section#must .flex article a p{
   color: #999;
   font-size: 12px;
-  line-height: 5;
 }

@@ -4,16 +4,20 @@ section#life {
   align-items: center;
 }
 section#life .wrap {
-  position: relative;
   height: 100%;
 }
-section#life .wrap h2 {
+section#life .wrap .name{
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+section#life .wrap .name h2 {
   text-transform: uppercase;
   font-size: 45px;
   font-weight: bold;
-  margin-bottom: 30px;
 }
-section#life .wrap .more{
+section#life .wrap .name a{
   text-transform: uppercase;
   color: #999;
   text-align: end;
@@ -22,7 +26,7 @@ section#life .wrap .more{
   position: absolute;
   right: 0;
 }
-section#life .wrap .more::after{
+section#life .wrap .name a::after{
   content: "";
   background-image: url(../img/more.svg);
   display: inline-block;
@@ -31,34 +35,35 @@ section#life .wrap .more::after{
   vertical-align: -5px;
   background-size: contain;
 }
-section#life .flex{
+section#life .wrap .img{
+
   gap: 30px;
-  align-items: center;
 }
-section#life .flex article{
+section#life .wrap .img article{
+
+}
+section#life .wrap .img article a{
   
 }
-section#life .flex article a{
-  
-}
-section#life .flex article a img{  
+section#life .wrap .img article a img{  
   width: 377px;
 }
-section#life .flex article a h4{
+section#life .wrap .img article a h4{
   font-size: 15px;
   font-weight: bold;
-  line-height: 4;
+  margin-top: 10px;
 }
-section#life .flex article a h3{
+section#life .wrap .img article a h3{
   font-size: 20px;
   font-weight: bold;
-  line-height: 1;
+  margin: 15px 0;
 }
-section#life .flex article a h3:hover{
+section#life .wrap .img article a h3:hover{
   text-decoration: underline;
 }
-section#life .flex article a p{
+section#life .wrap .img article a p{
   color: #999;
   font-size: 12px;
-  line-height: 5;
 }
+
+

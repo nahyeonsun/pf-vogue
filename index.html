@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/fashion.css">
     <link rel="stylesheet" href="css/life.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- 자바스크립트 -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -38,53 +39,53 @@
 </head>
 <body>
     <!-- 상단영역 -->
-    <header>
+   <header>
       <div class="wrap flex">
-            <h1><a href="">vogue</a></h1>
+         <h1><a href="">vogue</a></h1>
             <ul class="gnb flex">
-                <li><a href="#">FASHION</a></li>
-                <li><a href="#" class=>BEAUTY</a></li>
-                <li><a href="#" class=>LIFESTYLE</a></li>
-                <li><a href="#" class=>CULTURE</a></li>
-                <li><a href="#" class=>VIDEO</a></li>
+               <li><a href="#">FASHION</a></li>
+               <li><a href="#" class=>BEAUTY</a></li>
+               <li><a href="#" class=>LIFESTYLE</a></li>
+               <li><a href="#" class=>CULTURE</a></li>
+               <li><a href="#" class=>VIDEO</a></li>
             </ul>
-         <div class="right flex">
-            <select name="lang" id="">
-                <option value="">KOREA</option>
-                <option value="">ARABIA</option>
-                <option value="">Australia</option>
-                <option value="">BRASIL</option>
-                <option value="">BRITAIN</option>
-                <option value="">China</option>
-                <option value="">CZECHOSLOVAKIA</option>
-                <option value="">ESPAÑA</option>
-                <option value="">France</option>
-                <option value="">Germany</option>
-                <option value="">Greece</option>
-                <option value="">Hong Kong</option>
-                <option value="">India</option>
-                <option value="">ITALIA</option>
-                <option value="">Japan</option>
-                <option value="">MÉXICO</option>
-                <option value="">NEDERLAND</option>
-                <option value="">Philippines</option>
-                <option value="">POLSKA</option>
-                <option value="">Portugal</option>
-                <option value="">SCANDINAVIA</option>
-                <option value="">SINGAPORE</option>
-                <option value="">Taiwan</option>
-                <option value="">Thailand</option>
-                <option value="">TÜRKIYE</option>
-                <option value="">Ukraine</option>
-                <option value="">UNITED STATES</option>
-            </select>
-            <ul>
-               <li><a href="">구독하기</a></li>
-               <li><a href="">전체메뉴</a></li>
-            </ul>
-         </div>
+            <div class="right flex">
+               <select name="lang" id="">
+                  <option value="">KOREA</option>
+                  <option value="">Australia</option>
+                  <option value="">BRASIL</option>
+                  <option value="">BRITAIN</option>
+                  <option value="">China</option>
+                  <option value="">CZECHOSLOVAKIA</option>
+                  <option value="">ESPAÑA</option>
+                  <option value="">France</option>
+                  <option value="">Germany</option>
+                  <option value="">Greece</option>
+                  <option value="">Hong Kong</option>
+                  <option value="">India</option>
+                  <option value="">ITALIA</option>
+                  <option value="">Japan</option>
+                  <option value="">MÉXICO</option>
+                  <option value="">NEDERLAND</option>
+                  <option value="">Philippines</option>
+                  <option value="">POLSKA</option>
+                  <option value="">Portugal</option>
+                  <option value="">SCANDINAVIA</option>
+                  <option value="">SINGAPORE</option>
+                  <option value="">Taiwan</option>
+                  <option value="">Thailand</option>
+                  <option value="">TÜRKIYE</option>
+                  <option value="">Ukraine</option>
+                  <option value="">UNITED STATES</option>
+                  <option value="">ARABIA</option>
+               </select>
+               <ul>
+                  <li><a href="">구독하기</a></li>
+                  <li><a href="">전체메뉴</a></li>
+               </ul>
+            </div>
       </div>
-    </header>
+   </header>
     <!-- 타이틀영역 -->
     <div id="title">
         <div class="wrap flex column center">
@@ -95,7 +96,7 @@
    <!-- 메인영역 -->
    <main>
         <!-- today -->
-        <section id="today" class="paddingT50 paddingB50 marginT50 marginB50">
+        <section id="today" class="paddingT50 paddingB50 marginB50">
            <div class="wrap">
               <h2>Today's Stories</h2>
               <div class="grid24">
@@ -285,12 +286,14 @@
          </section>
          <!-- insta -->
          <section id="insta" class="paddingT50 paddingB50 marginT50 marginB50">
-            <div class="wrap">
-               <h2>HOT KEYWORD</h2>
-               <a href="">
-                  <p class="fashion">#패션인스타그램</p>
-               </a>
-               <div class="flex">
+            <div class="wrap flex">
+               <div class="flex column left">
+                  <h2>HOT KEYWORD</h2>
+                  <a href="">
+                     <p class="fashion">#패션인스타그램</p>
+                  </a>
+               </div>
+               <div class="style flex">
                   <article>
                      <a href="">
                         <img src="img/insta1.webp" alt="">
@@ -373,11 +376,11 @@
          <!-- life -->
          <section id="life" class="paddingT50 paddingB50 marginT50 marginB50">
             <div class="wrap">
-               <div class="flex">
+               <div class="flex name">
                   <h2>Lifestyle</h2>
                   <a class="more" href="">more</a>
                </div>
-               <div class="flex">
+               <div class="flex img">
                   <article>
                      <a href="">
                         <img src="img/life1.webp" alt="">

@@ -10,7 +10,6 @@ header div.wrap {
   width: 1600px;
 }
 header div.wrap h1 {
-   
   grid-column: 2;
 }
 header div.wrap h1 a {
