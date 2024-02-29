@@ -36,6 +36,23 @@
          });
       });
     </script>
+   <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+         $(document).ready(function(){
+            $('.bestSlide').slick({
+               infinite: true,
+               slidesToShow: 4,
+               slidesToScroll: 1,
+               autoplaySpeed: 2000,
+               speed:1000,
+               arrow:true,
+               dots:false
+            });
+         });
+    </script>
 </head>
 <body>
     <!-- 상단영역 -->
@@ -144,14 +161,14 @@
            </div>
         </section>
         <!-- best -->
-        <section id="best" class="paddingT50 paddingB50 marginT50 marginB50">
+        <section id="best" class="paddingT50 paddingB50 marginT50 marginB50 ">
             <div class="wrap">
                <h2>Best stories</h2>
-               <div class="arrow">
+               <!-- <div class="arrow">
                   <a href="">left</a>
                   <a href="">right</a>
-               </div>
-            <div class="flex">
+               </div> -->
+            <div class="flex bestSlide">
                <article>
                   <a href="">
                      <img src="img/best1.webp" alt="pants">

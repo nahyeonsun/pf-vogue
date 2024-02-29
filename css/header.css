@@ -26,9 +26,10 @@ header div.wrap h1 a {
   margin-bottom: 25px;
 }
 header div.wrap ul.gnb li a {
-  padding: 10px 25px;
+  padding: 7px 24px;
   text-align: center;
   font-weight: bold;
+  font-size: 18px;
 }
 header div.wrap ul.gnb{  
   grid-column: 2;

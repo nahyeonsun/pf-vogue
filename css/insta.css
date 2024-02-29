@@ -20,6 +20,7 @@
 #insta .wrap .column{
   position: absolute;
   top: 19%;
+  left: 14%;
 }
 #insta .wrap .column h2 {
   text-transform: uppercase;

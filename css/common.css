@@ -1,4 +1,5 @@
 body{
+  overflow-x: hidden;
 }
 .wrap{
   width: 1600px;
